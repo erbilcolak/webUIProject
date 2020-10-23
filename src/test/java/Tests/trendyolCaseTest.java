@@ -36,8 +36,8 @@ public class trendyolCaseTest extends baseTest {
         page.trendyolCasePage().goCategoryTab("ELEKTRONİK");
         page.trendyolCasePage().checkAllImagesLoaded();
 
-        page.trendyolCasePage().goCategoryTab("ÇOCUK");
-        page.trendyolCasePage().goProductDetail("cocuk");
+        page.trendyolCasePage().goCategoryTab("SÜPERMARKET");
+        page.trendyolCasePage().goProductDetail("supermarket");
         page.trendyolCasePage().addBasket();
         page.trendyolCasePage().assertAddedBasket();
         page.trendyolCasePage().basketDeleteProduct();

@@ -4,15 +4,10 @@ import Utility.TLDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.net.UrlChecker;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-import javax.xml.ws.WebEndpoint;
 import java.io.IOException;
-import java.net.HttpURLConnection;
-import java.net.ResponseCache;
-import java.net.URL;
 import java.util.List;
 
 import static org.testng.AssertJUnit.assertEquals;
